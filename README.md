@@ -1,18 +1,18 @@
 # PCA-Milestoning
-Clustering protein conformations using different RMSD inputs:
+The jupyter notebooks in this repository will teach the user how to adapt the original milestoning theory to the reaction coordinates and milestones projected in 2-dimensional principal components. We will complete the rest of the tutorial asap. Now, the following three tutorials will cover principal component analysis (PCA) of MD trajectories, generate and optimize milestones, extract representative molecular configurations of milestones, and H-bond analysis of milestones. In the future, we will complete this tutorial by including the calculations of potential of mean force profiles and mean first passage time of protein/ligand dissociation. 
 
-```Clustering-K-Means-RMSD-CA.ipynb``` clusters conformations using RMSD of Cartesian coordinates of alpha-C atoms
+```Milestoning_Generate.ipynb``` PCA of MD trajectories, construct and optimize milestones. Example optimized milestones in 2-dimentinoal principal component spaces is shown below:
 
-```Clustering-K-Means-RMSD-Rihedrals.ipynb``` clusters conformations using RMSD of phi and sin angles
+<img src ="https://github.com/chen3262/PCA-Milestoning/blob/master/cover.png" width="600">
 
-```Clustering-K-Means-RMSD-mix.ipynb``` clusters conformations using both the above RMSD terms, with the RMSD of phi and sin angles multiplied by 200. A sample clustering result is shown below:
+```RepreFrames_sparse.ipynb``` generate representative frames of milestones using sparse trajectories from metadynamics
 
-<img src ="https://github.com/chen3262/Clustering-K-Means/blob/master/K-means.png" width="600">
+```Analysis-Hbond.ipynb``` Perifrm protein-ligand and protein-solvent-ligand H-bond analysis at each milestone. 
 
 ## Requirements
-python modules: ```numpy```, ```pytraj```, ```matplotlib```, ```scikit-learn```
+python modules: ```numpy```, ```pytraj```, ```matplotlib```, ```scikit-learn```, ```pandas```
 
-To check if you have these modules installed (excepting ```pytraj```), you can either do
+```pytraj``` is by default installed with ```Amber18```. To check if you have these modules installed (excepting ```pytraj```), you can either do
 ```bash
 conda list | grep "module_name"
 pip list | grep "module_name"
@@ -30,7 +30,7 @@ pip install -i https://pypi.anaconda.org/ambermd/simple pytraj
 
 ## To use the notebook
 ```ruby
-cd "path to Clustering-K-Means folder"
+cd "path of the PCA-Milestoning folder"
 
 jupyter notebook
 ```
