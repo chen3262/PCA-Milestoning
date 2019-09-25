@@ -12,7 +12,7 @@ The jupyter notebooks in this repository will teach the user how to adapt the or
 ## Requirements
 python modules: ```numpy```, ```pytraj```, ```matplotlib```, ```scikit-learn```, ```pandas```
 
-```pytraj``` is by default installed with ```Amber18```. To check if you have these modules installed (excepting ```pytraj```), you can either do
+To check if you have these modules installed (excepting ```pytraj```), you can either do
 ```bash
 conda list | grep "module_name"
 pip list | grep "module_name"
@@ -22,7 +22,7 @@ If nothing is shown, you will need to install the module using either of the fol
 conda install module_name
 pip install module_name
 ```
-To install ```pytraj```, please do either of the following commands
+```pytraj``` is by default installed with ```Amber18```. If you don't have it, do either of the following commands to install ```pytraj```
 ```bash
 conda install -c ambermd pytraj
 pip install -i https://pypi.anaconda.org/ambermd/simple pytraj
