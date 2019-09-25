@@ -5,9 +5,9 @@ The jupyter notebooks in this repository will teach the user how to adapt the or
 
 <img src ="https://github.com/chen3262/PCA-Milestoning/blob/master/cover.png" width="600">
 
-```RepreFrames_sparse.ipynb``` generate representative frames of milestones using sparse trajectories from metadynamics
+```RepreFrames_sparse.ipynb``` Generating representative frames of milestones using sparse trajectories from metadynamics
 
-```Analysis-Hbond.ipynb``` Perifrm protein-ligand and protein-solvent-ligand H-bond analysis at each milestone. 
+```Analysis-Hbond.ipynb``` Performing protein-ligand and protein-solvent-ligand H-bond analysis at each milestone. 
 
 ## Requirements
 python modules: ```numpy```, ```pytraj```, ```matplotlib```, ```scikit-learn```, ```pandas```
