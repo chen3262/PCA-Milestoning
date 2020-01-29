@@ -1,6 +1,7 @@
 # PCA-Milestoning
 The jupyter notebooks in this repository will teach the user how to adapt the original milestoning theory to the reaction coordinates and milestones projected in 2-dimensional principal components. We will complete the rest of the tutorial asap. Now, the following three tutorials will cover principal component analysis (PCA) of MD trajectories, generate and optimize milestones, extract representative molecular configurations of milestones, and H-bond analysis of milestones. The current release include four notebooks, which should be run in the following order.
 
+## Components
 **Milestoning_Generate.ipynb** PCA of MD trajectories, construct and optimize milestones. Example optimized milestones in 2-dimentinoal principal component spaces is shown below:
 
 <img src ="https://github.com/chen3262/PCA-Milestoning/blob/master/cover.png" width="600">
