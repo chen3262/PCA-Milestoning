@@ -9,6 +9,8 @@ The jupyter notebooks in this repository will teach the user how to adapt the or
 
 ```Analysis-Hbond.ipynb``` Performing protein-ligand and protein-solvent-ligand H-bond analysis at each milestone. 
 
+```Project2PCA.py``` A python script to project short MD trajectories into first two principal axes
+
 ```Milestoning_Calculations.ipynb``` Use milestoning theory to compute useful theromodynmics and kinetics properties, including potential of mean force (PMF), unbinding free energy, mean first passage time (MFPT) of dissociation.
 
 ## Requirements
