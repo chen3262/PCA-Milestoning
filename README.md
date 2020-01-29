@@ -1,17 +1,17 @@
 # PCA-Milestoning
 The jupyter notebooks in this repository will teach the user how to adapt the original milestoning theory to the reaction coordinates and milestones projected in 2-dimensional principal components. We will complete the rest of the tutorial asap. Now, the following three tutorials will cover principal component analysis (PCA) of MD trajectories, generate and optimize milestones, extract representative molecular configurations of milestones, and H-bond analysis of milestones. The current release include four notebooks, which should be run in the following order.
 
-```Milestoning_Generate.ipynb``` PCA of MD trajectories, construct and optimize milestones. Example optimized milestones in 2-dimentinoal principal component spaces is shown below:
+**Milestoning_Generate.ipynb** PCA of MD trajectories, construct and optimize milestones. Example optimized milestones in 2-dimentinoal principal component spaces is shown below:
 
 <img src ="https://github.com/chen3262/PCA-Milestoning/blob/master/cover.png" width="600">
 
-```RepreFrames_sparse.ipynb``` Generating representative frames of milestones using sparse trajectories from metadynamics
+**RepreFrames_sparse.ipynb** Generating representative frames of milestones using sparse trajectories from metadynamics
 
-```Analysis-Hbond.ipynb``` Performing protein-ligand and protein-solvent-ligand H-bond analysis at each milestone. 
+**Analysis-Hbond.ipynb** Performing protein-ligand and protein-solvent-ligand H-bond analysis at each milestone. 
 
-```Project2PCA.py``` A python script to project short MD trajectories into first two principal axes
+**Project2PCA.py** A python script to project short MD trajectories into first two principal axes
 
-```Milestoning_Calculations.ipynb``` Use milestoning theory to compute useful theromodynmics and kinetics properties, including potential of mean force (PMF), unbinding free energy, mean first passage time (MFPT) of dissociation.
+**Milestoning_Calculations.ipynb** Use milestoning theory to compute useful theromodynmics and kinetics properties, including potential of mean force (PMF), unbinding free energy, mean first passage time (MFPT) of dissociation.
 
 ## Requirements
 python modules: ```numpy```, ```pytraj```, ```matplotlib```, ```scikit-learn```, ```pandas```
