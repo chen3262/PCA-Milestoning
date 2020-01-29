@@ -1,5 +1,3 @@
-import sys
-sys.path.insert(1,'/hdd/si_han/cpptraj_test/pytraj')
 import pytraj as pt
 from sklearn.decomposition import PCA
 import numpy as np
